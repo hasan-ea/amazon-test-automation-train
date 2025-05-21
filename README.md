@@ -14,8 +14,8 @@ The goal of this project is to test an end-to-end scenario on Amazon.com: search
 - TestNG  
 - Cucumber (Gherkin syntax)
 
-##  Project Structure
-## 📁 Project Structure
+
+## Project Structure
 
 ```
 src/
