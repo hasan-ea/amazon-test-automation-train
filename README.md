@@ -15,26 +15,30 @@ The goal of this project is to test an end-to-end scenario on Amazon.com: search
 - Cucumber (Gherkin syntax)
 
 ##  Project Structure
+## 📁 Project Structure
+
+```
 src/
 ├── main/
-│ └── java/
-│ ├── testRunners/
-│ │ └── runner.java
-│ └── util/
-│ ├── ConfigReader.java
-│ ├── DriverFactory.java
-│ ├── ElementHelper.java
-│ └── Hooks.java
+│   └── java/
+│       ├── testRunners/
+│       │   └── runner.java
+│       └── util/
+│           ├── ConfigReader.java
+│           ├── DriverFactory.java
+│           ├── ElementHelper.java
+│           └── Hooks.java
 │
 ├── test/
-│ ├── java/
-│ │ ├── Features/
-│ │ │ └── Amazon.feature
-│ │ ├── Pages/
-│ │ │ └── AmazonPages.java
-│ │ └── StepDefinitions/
-│ │ └── AmazonStep.java
-│ │
-│ └── resources/
-│ ├── config.properties
-│ └── TestNG.xml
+│   └── java/
+│       ├── Features/
+│       │   └── Amazon.feature
+│       ├── Pages/
+│       │   └── AmazonPages.java
+│       └── StepDefinitions/
+│           └── AmazonStep.java
+│
+├── resources/
+│   ├── config.properties
+│   └── TestNG.xml
+```
